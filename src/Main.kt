@@ -1,14 +1,43 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
-    val name = "Kotlin"
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
-
-    for (i in 1..5) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        println("i = $i")
+    val first = 21
+    var second = 23
+    var str = "йоооооооу"
+    println("эщкере")
+    fun master(a : Int){
+        println("nice, $a")
     }
+    master(12)
+
+    fun mast(a:Int, b: Int) = a + b
+
+    mast(12,43)
+
+    fun mst(a: Int):Int{
+        return a + 15
+    }
+
+    val save = mst(15)
+
+    fun printSum(a: Int, b: Int): Unit {
+        println("сумма $a и $b равна ${a + b}")
+    }
+    println(printSum(12,21))
+
+    //hahhahhahaha
+    /*hohohooh*/
+
+
+}
+class student() {
+    private val first_subject_point = 0
+    private val second_subject_point = 0
+    private val third_subject_point = 0
+
+    fun summ(a:Int,b:Int,c:Int):Int {
+        return a + b + c
+    }
+}
+open class Person1(){
+    private val additional_point = 0
+
 }
